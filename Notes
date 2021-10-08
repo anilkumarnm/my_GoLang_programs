@@ -1,1 +1,8 @@
-1. Testing Git push
+1. var card string = "Ace of spades" //var=variable card=name of variable string=data type (one way of defining a variable)
+2. card := "Ace of spades" //equivalent to previous declaration. We are relying upon go compiler to figure out the data type
+3. Note-  := will be used ONLY when you declare a NEW vriable. : will be used only when we very first initialize a variable
+4. func newCard() string { //This will say that the return value of this function will be a "string"
+	return "Five of Diamonds"
+    }
+
+	
