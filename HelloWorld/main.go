@@ -4,4 +4,8 @@ import "fmt" //Used to give our package access to some code written in another p
 
 func main() { //func is nothing but short for function. You can pass arguments in the () brackets
 	fmt.Println("Hi There")
+	card := "Ace of Spades"
+	card = "5 of diamonds"
+	fmt.Println(card)
+
 }
